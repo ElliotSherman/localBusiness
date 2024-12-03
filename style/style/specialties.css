@@ -1,0 +1,40 @@
+.specialties {
+  background-color: var(--color-6);
+  font-family: verela;
+  color: var(--color-1);
+  /* height: 200px; */
+}
+.specialty-list {
+  width: 80%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem;
+}
+.specialty-li {
+  text-align: center;
+  flex-grow: 1;
+  padding: 0.5rem;
+  width: 150px;
+}
+.icon {
+  padding: 1rem;
+  color: transparent;
+}
+.icon i {
+  /* border: 1px solid var(--color-1); */
+  text-shadow: 0px 0px 0px var(--color-4), -1px 1px 1px var(--color-1),
+    -1px -1px 1px var(--color-1), 1px 1px 1px var(--color-1),
+    -2px -2px 2px var(--color-1), -2px 2px 2px var(--color-1),
+    2px -2px 2px var(--color-1), 2px 2px 2px var(--color-1),
+    0px 0px 1px var(--color-1), 0px 0px 1px var(--color-1);
+  /* text-shadow: ; */
+  font-size: 4rem;
+}
+.specialty-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}

@@ -1,0 +1,16 @@
+/* BASIC */
+@import url("style/basic.css");
+/* VARIABLES */
+@import url("style/variables.css");
+/* HELPERS & LAYOUT */
+@import url("style/helpers.css");
+/* HEADER & NAV */
+@import url("style/header.css");
+/* HERO */
+@import url("style/hero.css");
+/* SPECIALTIES BANNER */
+@import url("style/specialties.css");
+
+@import url("style/footer.css");
+@import url("style/promoter.css");
+/* @import url("style/hero.css"); */

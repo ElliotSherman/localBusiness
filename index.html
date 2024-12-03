@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./public/images/favicon.ico" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>הַצָנַר - פרויקטים במתכת ואיסנטלציה</title>
+  </head>
+  <body class="flex col">
+    <!-- nav -->
+    <header class="layout header">
+      <nav class="flex space-between align-center nav">
+        <div class="logo"></div>
+
+        <div id="menuToggle">
+          <input type="checkbox" class="menuCheckbox" id="menuCheckbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu" class="nav-links flex col space-evenly">
+            <li class="nav-link flex align-center justify-center">
+              <a href="" class="link">
+                <label onclick="this.parentNode.click();" for="menuCheckbox"
+                  >צור קשר</label
+                >
+              </a>
+            </li>
+            <li class="nav-link flex align-center justify-center">
+              <a href="" class="link">
+                <label onclick="this.parentNode.click();" for="menuCheckbox">
+                  שירותים
+                </label>
+              </a>
+            </li>
+            <li class="nav-link flex align-center justify-center">
+              <a href="" class="link">
+                <label onclick="this.parentNode.click();" for="menuCheckbox">
+                  גלריה
+                </label>
+              </a>
+            </li>
+            <li class="nav-link flex align-center justify-center">
+              <a href="" class="link">
+                <label onclick="this.parentNode.click();" for="menuCheckbox">
+                  עלינו
+                </label>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="nav-links flex space-evenly">
+          <li class="nav-link flex align-center justify-center">
+            <a href="" class="link">צור קשר</a>
+          </li>
+          <li class="nav-link flex align-center justify-center">
+            <a href="" class="link">שירותים</a>
+          </li>
+          <li class="nav-link flex align-center justify-center">
+            <a href="" class="link">גלריה</a>
+          </li>
+          <li class="nav-link flex align-center justify-center">
+            <a href="" class="link">עלינו</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="flex col layout hero-content">
+      <!-- hero top banner -->
+      <div class="flex layout hero-contacts-banner">
+        <div class="flex row-reverse justify-end hero-contacts-container">
+          
+          <p class="hero-contacts">
+            <span class="service-clock">
+              שירות 24/7
+              <i class="fa-solid fa-clock"></i>
+            </span>
+          </p>
+          <p class="hero-contacts flex-1">
+            ליעוץ או הצעת מחיר
+           <span class="phone-num"
+             >054-774-4698
+             <a href="tel:+97254774469" target="_blank">
+               <i class="fa-solid fa-phone"></i>
+              </a>
+           </span>
+         </p>
+        </div>
+      </div>
+      <!-- hero image and greeting text -->
+      <div class="layout hero">
+        <img
+          class="layout hero-image"
+          src="/public/images/hero/christopher-burns-Wiu3w-99tNg-unsplash (1).jpg"
+          alt=""
+        />
+        <article class="hero-article layout flex col">
+          <p class="hero-intro">
+            הַצָנַר - קבלן ביצוע פרויקטים במתכת ואיסנטלציה
+          </p>
+          <h3 class="hero-greeting">נעים להכיר</h3>
+          <button class="hero-btn">העבודות שלנו</button>
+
+          <!-- <div class="hero-socials">
+            <ul class="socials-list flex space-evenly">
+              <li class="social-link"><i class="fa-solid fa-phone"></i>facebook</li>
+              <li class="social-link"><i class="fa-brands fa-instagram"></i>instagram</li>
+              <li class="social-link"><i class="fa-brands fa-facebook"></i>WhatsApp</li>
+            </ul>
+          </div> -->
+          
+        </article>
+        <!-- div
+      </div>
+      <!-- carousel -->
+      <!-- galery -->
+    </section>
+    <section class="specialties layout">
+      <ul class="flex space-between align-center specialty-list ">
+        <li class="specialty-li flex col ">
+          <div class="icon "><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <div class="specialty-text rtl ">כל סוגי הריתוך</div>
+        </li>
+        <li class="specialty-li flex col ">
+          <div class="icon "><i class="fa-solid fa-briefcase"></i></div>
+          <div class="specialty-text rtl ">25 שנות ניסיון</div>
+        </li>
+        <li class="specialty-li flex col ">
+          <div class="icon "><i class="fa-solid fa-location-dot"></i></div>
+          <div class="specialty-text rtl ">שירות בכל הארץ</div>
+        </li>
+        <li class="specialty-li flex col ">
+          <div class="icon "><i class="fa-solid fa-helmet-safety"></i></div>
+          <div class="specialty-text rtl ">קונסטרוקציה ואיסנטלציה</div>
+        </li>
+      </ul>
+    </section>
+    <!-- footer -->
+    <footer>
+      <!-- <h3 class="hero-contacts"><i class="fa-solid fa-phone"></i></h3>
+      <h3 class="hero-contacts"><i class="fa-brands fa-whatsapp"></i></h3>
+      <h3 class="hero-contacts"><i class="fa-brands fa-facebook"></i></h3>
+      <h3 class="hero-contacts"><i class="fa-brands fa-instagram"></i></h3> -->
+      <a class="whatsapp-link whatsapp-link-floater" target="_blank" href="//api.whatsapp.com/send?phone=+972547744698&text=שלום, אשמח לקבל הצעת מחיר"
+
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+
+    </footer>
+    <section class="promoter-container layout">
+      <div class="promoter">
+        <!-- add here your details -->
+        <!-- your name and logo -->
+        <h5 class="promoter-logo">Designed and developed by <a class="promote-name">Elliot Sherman &reg;</a></h5>
+        <ul class="promoter-links ">
+        <li><a href="" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+    </section>
+    <!-- <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script> -->
+    <script src="js/index.controller.js"></script>
+  </body>
+</html>

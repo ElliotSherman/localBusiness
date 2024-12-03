@@ -1,0 +1,22 @@
+.whatsapp-link-floater {
+  position: fixed;
+  padding: 1rem;
+  bottom: 5vh;
+  left: 1rem;
+  font-size: 2rem;
+  color: var(--color-4);
+  background-color: rgb(0, 190, 0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 60px;
+  box-shadow: 0 0 7px 1px var(--color-2);
+  transition: box-shadow 0.2s;
+}
+
+.whatsapp-link-floater:hover {
+  transition: box-shadow 0.2s;
+  box-shadow: 0 0 7px 1px var(--color-3);
+}
+

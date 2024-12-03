@@ -1,0 +1,24 @@
+:root {
+  --color-1: #0097b2;
+  --color-2: #545454;
+  --color-3: #afdee7;
+  --color-4: #dddddd;
+  --color-5: #808080;
+  --color-6: #e0e0e0;
+  --color-7: #72d2e5;
+  --rem-s: 0.5rem;
+  --rem-r: 1rem;
+  --rem-m: 1.25rem;
+  --rem-l: 1.5rem;
+  --rem-xl: 2rem;
+  --rem-xxl: 2.5rem;
+}
+
+@font-face {
+  font-family: verela;
+  src: url(/public/fonts/VarelaRound-Regular.ttf);
+}
+@font-face {
+  font-family: mplus;
+  src: url(/public/fonts/MPLUS1p-Regular.ttf);
+}

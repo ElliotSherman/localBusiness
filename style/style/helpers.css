@@ -1,0 +1,55 @@
+.layout > *:not(.layout) {
+  max-width: 1600px;
+  padding: 0 var(--rem-m) 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.debug {
+  border: solid red 1px;
+}
+
+/* FLEX PROPS  */
+.flex {
+  display: flex;
+}
+.felx-1 {
+  flex-grow: 1;
+}
+.col {
+  flex-direction: column;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-stretch {
+  align-items: stretch;
+}
+.self-end {
+  align-self: flex-end;
+}
+.hide {
+  display: none;
+}
+.rtl {
+  direction: rtl;
+}
+/* MARGINS & PADDING */

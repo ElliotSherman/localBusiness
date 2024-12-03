@@ -19,7 +19,7 @@
   height: 100%;
   position: relative;
   width: 225px;
-  background-image: url("/public/images/horizontal grey.png");
+  background-image: url("public/images/horizontal grey.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
